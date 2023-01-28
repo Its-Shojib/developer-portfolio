@@ -4,10 +4,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 28px;
+}
 .Orange-color{
   color: orange;
 }
-section{
+.flexible-conteiner{
     display: flex;
     margin-bottom: 120px;
 }
@@ -27,4 +30,24 @@ section{
     font-weight: 700;
     border-radius: 5px;
 }
-
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;  
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1 ;
+}
+#full-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,rgb(59, 69, 69));
+    border-image-slice: 1 ;
+}
+footer p{
+    text-align: center;
+}
