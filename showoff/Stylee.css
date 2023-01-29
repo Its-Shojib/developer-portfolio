@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Yello-color{
+    color: yellowgreen;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    color: darkblue;
+    font-size: 25px;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 120px;
+}
+.Half-page{
+    width: 50%;
+    padding-left: 50px;
+}
+.Half-page img{
+    width: 65%; 
+}
+.link-button{
+    border-radius: 5px;
+    font-weight: 700;
+    background-image:linear-gradient(yellowgreen,tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+}
