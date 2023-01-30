@@ -3,12 +3,19 @@ body{
 }
 .Yello-color{
     color: yellowgreen;
+    
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 h3{
     font-size: 25px;
+}
+h4{
+    font-size: 20px;
 }
 .flexible{
     display: flex;
@@ -28,4 +35,26 @@ h3{
     text-decoration: none;
     padding: 10px 40px;
     color: white;
+}
+.exp{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray; 
+    border-radius: 10px;
+
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1 ;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,rgb(59, 69, 69));
+    border-image-slice: 1 ;
+}
+footer{
+   text-align: center; 
 }
